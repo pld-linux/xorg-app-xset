@@ -1,12 +1,12 @@
 Summary:	xset application
 Summary(pl):	Aplikacja xset
 Name:		xorg-app-xset
-Version:	0.99.2
+Version:	0.99.3
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/xset-%{version}.tar.bz2
-# Source0-md5:	e1c13aec3f1d2041c965d8bb24ea93c3
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/app/xset-%{version}.tar.bz2
+# Source0-md5:	1c4444f3a4cdb10758c392751f467e66
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -14,7 +14,7 @@ BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-libXp-devel
 BuildRequires:	xorg-lib-libXxf86misc-devel
-#BuildRequires:	xorg-lib-libfontcache-devel	??? (optional)
+BuildRequires:	xorg-lib-libXfontcache-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
