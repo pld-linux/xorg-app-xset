@@ -1,12 +1,12 @@
 Summary:	xset application
 Summary(pl):	Aplikacja xset
 Name:		xorg-app-xset
-Version:	1.0.1
+Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xset-%{version}.tar.bz2
-# Source0-md5:	efd71993a9dc96566dd3e89f507ccac5
+Source0:	http://xorg.freedesktop.org/releases/individual/app/xset-%{version}.tar.bz2
+# Source0-md5:	1b781a0802c7b8fb9619a6665607b3f0
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
