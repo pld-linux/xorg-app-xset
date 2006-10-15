@@ -2,7 +2,7 @@ Summary:	xset application
 Summary(pl):	Aplikacja xset
 Name:		xorg-app-xset
 Version:	1.0.2
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xset-%{version}.tar.bz2
@@ -11,6 +11,7 @@ URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	xorg-lib-libXext-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-libXp-devel
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1x*
+%attr(755,root,root) %{_bindir}/xset
+%{_mandir}/man1/xset.1x*
