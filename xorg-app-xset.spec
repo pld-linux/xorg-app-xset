@@ -1,5 +1,5 @@
 Summary:	xset application
-Summary(pl.UTF-8):   Aplikacja xset
+Summary(pl.UTF-8):	Aplikacja xset
 Name:		xorg-app-xset
 Version:	1.0.2
 Release:	1
