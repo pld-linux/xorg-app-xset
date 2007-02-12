@@ -1,5 +1,5 @@
 Summary:	xset application
-Summary(pl):	Aplikacja xset
+Summary(pl.UTF-8):   Aplikacja xset
 Name:		xorg-app-xset
 Version:	1.0.2
 Release:	1
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xset application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xset.
 
 %prep
