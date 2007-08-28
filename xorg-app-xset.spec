@@ -1,5 +1,5 @@
-Summary:	xset application
-Summary(pl.UTF-8):	Aplikacja xset
+Summary:	xset application - user preference utility for X
+Summary(pl.UTF-8):	Aplikacja xset - narzędzie do ustawień użytkownika dla X
 Name:		xorg-app-xset
 Version:	1.0.3
 Release:	1
@@ -21,10 +21,12 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xset application.
+xset program is used to set various user preference options of the
+display.
 
 %description -l pl.UTF-8
-Aplikacja xset.
+Program xset służy do ustawiania różnych opcji ekranu przez
+użytkownika.
 
 %prep
 %setup -q -n xset-%{version}
