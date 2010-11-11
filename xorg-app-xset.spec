@@ -1,14 +1,14 @@
 Summary:	xset application - user preference utility for X
 Summary(pl.UTF-8):	Aplikacja xset - narzędzie do ustawień użytkownika dla X
 Name:		xorg-app-xset
-Version:	1.2.0
+Version:	1.2.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xset-%{version}.tar.bz2
-# Source0-md5:	88ff2d390695366fa53e5d746fe86ad5
+# Source0-md5:	4e0ce390394416c9e2c5cd4d7413ba87
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXext-devel
@@ -16,7 +16,7 @@ BuildRequires:	xorg-lib-libXext-devel
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-libXxf86misc-devel
 BuildRequires:	xorg-lib-libXfontcache-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
